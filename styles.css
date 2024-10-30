@@ -103,27 +103,38 @@ footer .cta-button {
     margin-top: 0.5rem;
 }
 
+
+
+/* Centering adjustments */
 .image-section {
     display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%; /* Ensures section centers within its container */
+    margin: 20px auto;
+    text-align: center;
 }
 
 .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45%; /* Adjust as needed */
+    width: 75%; /* Allows flexibility to adjust to content */
+    margin: 10px;
 }
 
 .image-container img {
     max-width: 100%;
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px;
 }
+
+
+
 
 .image-caption {
     font-size: 0.9em; /* Slightly smaller than regular text */
-    color: #555;
+    color: #666;
     margin-top: 5px;
     text-align: center;
 }
